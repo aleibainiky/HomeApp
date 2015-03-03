@@ -12,18 +12,15 @@
 	<div class="inner demo-gallery">
 		<% @photos.each do |name, width, height| %>
 
-		 <a href="<%= name %>" data-size="<%= width %>x<%= height%>" data-author="AB" class="demo-gallery__img--main">
+		 <a href="<%= name %>" data-size="<%= width %>x<%= height%>" data-author="AleiBainiky" class="demo-gallery__img-main">
 	          <img src="<%= name %>" alt="" /></a>	        
 	    
-
-
 	    <% end %> 
 	</div>
 </div>
 
 <%= erb :pswp %>
 <%= erb :demo %>
-
 
 	</body>
 </html>

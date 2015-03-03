@@ -27,7 +27,7 @@ get "/gallery/portrait" do
 	erb :gallery
 end
 get "/gallery/engagement_family" do
-	@photos = get_photos("./public/Photos/engagement_family/*.jpg")
+	@photos = get_photos("./public/Photos/engagement/*.jpg")
 	erb :gallery
 end
 get "/about" do
